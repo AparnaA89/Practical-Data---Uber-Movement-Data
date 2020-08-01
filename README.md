@@ -48,6 +48,7 @@ _After cleansing:_
 **Exploratory Data Analysis**
 * Wards data:
   ![ED_Wards_Data](https://user-images.githubusercontent.com/66996144/89106852-9de63680-d44a-11ea-920d-dadc7e1f474d.png)
+ 
  * Sample Data:
   ![Wards_map](https://user-images.githubusercontent.com/66996144/89106903-c110e600-d44a-11ea-9038-1e0356addbe0.png)
 
@@ -55,25 +56,25 @@ _After cleansing:_
   ![Hourly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107059-f10cb900-d44b-11ea-9678-2fee2bf61efe.png)
   ![Hourly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107063-f5d16d00-d44b-11ea-9650-4f78dcb56a39.png)
   
-		* Derived fields:
+	* Derived fields:
 				* mean_travel_time_mins from mean_travel_time
 				* Standard_deviation_travel_time_mins from Standard_deviation_travel_time
 				* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
-		* Hourly data gives us time taken to travel between 2 points for every hour of the day
-		* Mean travel time can be 0.5 mins when distance between 2 points are minimum 
-		* Mean travel time can be 181.2 mins (3 hrs) when distance between 2 points are maximum 
+	* Hourly data gives us time taken to travel between 2 points for every hour of the day
+	* Mean travel time can be 0.5 mins when distance between 2 points are minimum 
+	* Mean travel time can be 181.2 mins (3 hrs) when distance between 2 points are maximum 
 
 *	Weekly Data:
   ![Weekly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107191-d25af200-d44c-11ea-94f8-fa9c87122f80.png)
   ![Weekly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107194-d555e280-d44c-11ea-87d7-63aaf25f3e46.png)
 
-		* Derived fields: 
-					*  mean_travel_time_mins from mean_travel_time
-					*  Standard_deviation_travel_time_mins from Standard_deviation_travel_time
-					* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
-		* Weekly data gives us time taken to travel between 2 points on every day of the week
-		* Mean travel time can be minimum 1.1 mins when distance between 2 points are minimum 
-		* Mean travel time can be maximum 117.5 mins when distance between 2 points are maximum 
+	* Derived fields: 
+		*  mean_travel_time_mins from mean_travel_time
+		*  Standard_deviation_travel_time_mins from Standard_deviation_travel_time
+		* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
+	* Weekly data gives us time taken to travel between 2 points on every day of the week
+	* Mean travel time can be minimum 1.1 mins when distance between 2 points are minimum 
+	* Mean travel time can be maximum 117.5 mins when distance between 2 points are maximum 
 
 
 **Let’s dive into actual data with an example:**
