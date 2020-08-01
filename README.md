@@ -19,36 +19,37 @@ Uber travel time data has been used for the below analysis. Objective of the ana
 
 **Data Dictionary:**
 * Bangalore Wards data
-  * ![Blr_wards_data](https://user-images.githubusercontent.com/66996144/89106683-675bec00-d449-11ea-9fab-6b2183197970.png)
+  ![Blr_wards_data](https://user-images.githubusercontent.com/66996144/89106683-675bec00-d449-11ea-9fab-6b2183197970.png)
 * Aggregated data
  * Hourly Data:
-   *  ![Hourly_Data](https://user-images.githubusercontent.com/66996144/89106705-bc97fd80-d449-11ea-813f-b0388c4325bf.png)
+   ![Hourly_Data](https://user-images.githubusercontent.com/66996144/89106705-bc97fd80-d449-11ea-813f-b0388c4325bf.png)
  * Weekly Data:
-   *  ![Weekly_Data](https://user-images.githubusercontent.com/66996144/89106728-fb2db800-d449-11ea-9c1f-2bd72a9338af.png)
+   ![Weekly_Data](https://user-images.githubusercontent.com/66996144/89106728-fb2db800-d449-11ea-9c1f-2bd72a9338af.png)
  * Monthly Data:
-   *  ![Monthly_Data](https://user-images.githubusercontent.com/66996144/89106742-0da7f180-d44a-11ea-9e7f-ad56a3b5b6cf.png)
+   ![Monthly_Data](https://user-images.githubusercontent.com/66996144/89106742-0da7f180-d44a-11ea-9e7f-ad56a3b5b6cf.png)
  
 Note: All time related fields are in seconds
  
+ 
 **Data Preparation steps for wards data:**
 Step 1: Converted json file to csv
 Step 2: Prepared data such there are no blank cells in between the range of co-ordinates (refer below image)
 Step 3: Final output file is validated against the original input file
 
 _Before cleansing:_
-  * ![Bfr_Cleaning](https://user-images.githubusercontent.com/66996144/89106762-2f08dd80-d44a-11ea-9d1f-47f372291a30.png)
+  ![Bfr_Cleaning](https://user-images.githubusercontent.com/66996144/89106762-2f08dd80-d44a-11ea-9d1f-47f372291a30.png)
 _After cleansing:_
-* ![After_Cleaning](https://user-images.githubusercontent.com/66996144/89106781-4a73e880-d44a-11ea-8e63-5ae53ccb238e.png)
+![After_Cleaning](https://user-images.githubusercontent.com/66996144/89106781-4a73e880-d44a-11ea-8e63-5ae53ccb238e.png)
 
 **Exploratory Data Analysis**
 * Wards data:
-  * ![ED_Wards_Data](https://user-images.githubusercontent.com/66996144/89106852-9de63680-d44a-11ea-920d-dadc7e1f474d.png)
+  ![ED_Wards_Data](https://user-images.githubusercontent.com/66996144/89106852-9de63680-d44a-11ea-920d-dadc7e1f474d.png)
 * Sample Data:
-  * ![Wards_map](https://user-images.githubusercontent.com/66996144/89106903-c110e600-d44a-11ea-9038-1e0356addbe0.png)
+  ![Wards_map](https://user-images.githubusercontent.com/66996144/89106903-c110e600-d44a-11ea-9038-1e0356addbe0.png)
 
 Hourly Data:
-  * ![Hourly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107059-f10cb900-d44b-11ea-9678-2fee2bf61efe.png)
-    ![Hourly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107063-f5d16d00-d44b-11ea-9650-4f78dcb56a39.png)
+  ![Hourly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107059-f10cb900-d44b-11ea-9678-2fee2bf61efe.png)
+  ![Hourly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107063-f5d16d00-d44b-11ea-9650-4f78dcb56a39.png)
   
 * Derived fields:
   * mean_travel_time_mins from mean_travel_time
@@ -59,7 +60,7 @@ Hourly Data:
 * Mean travel time can be 181.2 mins (3 hrs) when distance between 2 points are maximum 
 
 Weekly Data:
-* ![Weekly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107191-d25af200-d44c-11ea-94f8-fa9c87122f80.png)
+  ![Weekly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107191-d25af200-d44c-11ea-94f8-fa9c87122f80.png)
   ![Weekly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107194-d555e280-d44c-11ea-87d7-63aaf25f3e46.png)
 
 * Derived fields: 
@@ -77,15 +78,15 @@ Choose your travel points:
 * Enter the destination id: 47
 
 **Correlation:**
- *  ![Corelation](https://user-images.githubusercontent.com/66996144/89107243-3d0c2d80-d44d-11ea-9f3d-654ab02f2037.png)
+ ![Corelation](https://user-images.githubusercontent.com/66996144/89107243-3d0c2d80-d44d-11ea-9f3d-654ab02f2037.png)
 
 **Pair plot:**
- *  ![Pair_Plot](https://user-images.githubusercontent.com/66996144/89107256-57460b80-d44d-11ea-9cc4-e1c05346f606.png)
+ ![Pair_Plot](https://user-images.githubusercontent.com/66996144/89107256-57460b80-d44d-11ea-9cc4-e1c05346f606.png)
  
 
 **Weekly data**
 _Basic stats:_
-  * ![BS_Weekly_desc](https://user-images.githubusercontent.com/66996144/89107337-f79c3000-d44d-11ea-9b81-d9359c5e63d0.png)
+    ![BS_Weekly_desc](https://user-images.githubusercontent.com/66996144/89107337-f79c3000-d44d-11ea-9b81-d9359c5e63d0.png)
     ![BS_Weekly_desc1](https://user-images.githubusercontent.com/66996144/89107340-fff46b00-d44d-11ea-87b2-4e0d13942ae1.png)
 
 Average time to travel across days:
@@ -96,7 +97,7 @@ Average time to travel across days:
  
 **Hourly data - describe()**
 _Basic stats:_
-  * ![BS_Hourly_desc](https://user-images.githubusercontent.com/66996144/89107387-6f6a5a80-d44e-11ea-8678-feda93372704.png)
+    ![BS_Hourly_desc](https://user-images.githubusercontent.com/66996144/89107387-6f6a5a80-d44e-11ea-8678-feda93372704.png)
     ![BS_Hourly_desc1](https://user-images.githubusercontent.com/66996144/89107390-72fde180-d44e-11ea-8264-aedd48c65076.png)
 
 Average time to travel during hours days:
