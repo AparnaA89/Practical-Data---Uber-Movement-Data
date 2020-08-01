@@ -50,10 +50,11 @@ _After cleansing:_
 * Wards data:
 
   	![ED_Wards_Data](https://user-images.githubusercontent.com/66996144/89106852-9de63680-d44a-11ea-920d-dadc7e1f474d.png)
+	![Wards_map](https://user-images.githubusercontent.com/66996144/89106903-c110e600-d44a-11ea-9038-1e0356addbe0.png)
  
  * Sample Data:
+ 	![Sample_Wards_Data](https://user-images.githubusercontent.com/66996144/89107837-72b31580-d451-11ea-9f32-d6921f46eb76.png)
  	
-  	![Wards_map](https://user-images.githubusercontent.com/66996144/89106903-c110e600-d44a-11ea-9038-1e0356addbe0.png)
 
 * Hourly Data:
 	
