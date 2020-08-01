@@ -21,12 +21,12 @@ Uber travel time data has been used for the below analysis. Objective of the ana
 * Bangalore Wards data
   ![Blr_wards_data](https://user-images.githubusercontent.com/66996144/89106683-675bec00-d449-11ea-9fab-6b2183197970.png)
 * Aggregated data
- * Hourly Data:
-   ![Hourly_Data](https://user-images.githubusercontent.com/66996144/89106705-bc97fd80-d449-11ea-813f-b0388c4325bf.png)
- * Weekly Data:
-   ![Weekly_Data](https://user-images.githubusercontent.com/66996144/89106728-fb2db800-d449-11ea-9c1f-2bd72a9338af.png)
- * Monthly Data:
-   ![Monthly_Data](https://user-images.githubusercontent.com/66996144/89106742-0da7f180-d44a-11ea-9e7f-ad56a3b5b6cf.png)
+  * Hourly Data:
+    ![Hourly_Data](https://user-images.githubusercontent.com/66996144/89106705-bc97fd80-d449-11ea-813f-b0388c4325bf.png)
+  * Weekly Data:
+    ![Weekly_Data](https://user-images.githubusercontent.com/66996144/89106728-fb2db800-d449-11ea-9c1f-2bd72a9338af.png)
+  * Monthly Data:
+    ![Monthly_Data](https://user-images.githubusercontent.com/66996144/89106742-0da7f180-d44a-11ea-9e7f-ad56a3b5b6cf.png)
  
 Note: All time related fields are in seconds
  
