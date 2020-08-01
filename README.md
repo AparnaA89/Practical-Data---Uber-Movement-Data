@@ -58,10 +58,10 @@ _After cleansing:_
 
 * Hourly Data:
 	
-  	![Hourly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107059-f10cb900-d44b-11ea-9678-2fee2bf61efe.png)
-  	![Hourly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107063-f5d16d00-d44b-11ea-9650-4f78dcb56a39.png)
+  ![Hourly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107059-f10cb900-d44b-11ea-9678-2fee2bf61efe.png)
+  ![Hourly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107063-f5d16d00-d44b-11ea-9650-4f78dcb56a39.png)
   
-	*Derived fields: 
+	*	Derived fields: 
 		*  mean_travel_time_mins from mean_travel_time
 		*  Standard_deviation_travel_time_mins from Standard_deviation_travel_time
 		* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
@@ -102,8 +102,8 @@ _Choose your travel points:_
 
 _Basic stats:_
 
-    ![BS_Weekly_desc](https://user-images.githubusercontent.com/66996144/89107337-f79c3000-d44d-11ea-9b81-d9359c5e63d0.png)
-    ![BS_Weekly_desc1](https://user-images.githubusercontent.com/66996144/89107340-fff46b00-d44d-11ea-87b2-4e0d13942ae1.png)
+   ![BS_Weekly_desc](https://user-images.githubusercontent.com/66996144/89107337-f79c3000-d44d-11ea-9b81-d9359c5e63d0.png)
+   ![BS_Weekly_desc1](https://user-images.githubusercontent.com/66996144/89107340-fff46b00-d44d-11ea-87b2-4e0d13942ae1.png)
 
 _Average time to travel across days:_
 
@@ -117,8 +117,8 @@ _Average time to travel across days:_
 
 _Basic stats:_
 
-    ![BS_Hourly_desc](https://user-images.githubusercontent.com/66996144/89107387-6f6a5a80-d44e-11ea-8678-feda93372704.png)
-    ![BS_Hourly_desc1](https://user-images.githubusercontent.com/66996144/89107390-72fde180-d44e-11ea-8264-aedd48c65076.png)
+   ![BS_Hourly_desc](https://user-images.githubusercontent.com/66996144/89107387-6f6a5a80-d44e-11ea-8678-feda93372704.png)
+   ![BS_Hourly_desc1](https://user-images.githubusercontent.com/66996144/89107390-72fde180-d44e-11ea-8264-aedd48c65076.png)
 
 _Average time to travel during hours days:_
 
