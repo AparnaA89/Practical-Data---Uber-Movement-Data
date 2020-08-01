@@ -61,10 +61,10 @@ _After cleansing:_
   	![Hourly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107059-f10cb900-d44b-11ea-9678-2fee2bf61efe.png)
   	![Hourly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107063-f5d16d00-d44b-11ea-9650-4f78dcb56a39.png)
   
-	* Derived fields:
-			* mean_travel_time_mins from mean_travel_time
-			* Standard_deviation_travel_time_mins from Standard_deviation_travel_time
-			* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
+	*Derived fields: 
+		*  mean_travel_time_mins from mean_travel_time
+		*  Standard_deviation_travel_time_mins from Standard_deviation_travel_time
+		* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
 	* Hourly data gives us time taken to travel between 2 points for every hour of the day
 	* Mean travel time can be 0.5 mins when distance between 2 points are minimum 
 	* Mean travel time can be 181.2 mins (3 hrs) when distance between 2 points are maximum 
@@ -111,8 +111,10 @@ _Average time to travel across days:_
 * If we choose to travel from Vijayanagar to Malleshwaram, we require 24 to 27 minutes on average
 * There is not much difference in the travel time when compared across days because of the population and attractive shopping places
 * Let’s see how does the time vary hours of the day
- 
+
+
 **Hourly data - describe()**
+
 _Basic stats:_
 
     ![BS_Hourly_desc](https://user-images.githubusercontent.com/66996144/89107387-6f6a5a80-d44e-11ea-8678-feda93372704.png)
