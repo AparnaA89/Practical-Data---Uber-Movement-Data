@@ -4,6 +4,7 @@ Uber Movement Data
 
 Uber travel time data has been used for the below analysis. Objective of the analysis is to Predict approximate time to travel between point A to point B at given interval of the day. We have considered 2019 Quarter4 data for the analysis. Data provided by Uber is aggregated at different levels i.e. monthly, weekly, daily and hourly.
 
+
 **Data Sources and descriptions**
 * Uber Movement Data:
   * https://movement.uber.com/explore/bangalore/travel-times/query?si=573&ti=&ag=wards&dt[tpb]=ALL_DAY&dt[wd;]=1,2,3,4,5,6,7&dt[dr][sd]=2020-03-01&dt[dr][ed]=2020-03-31&cd=&sa;=&sdn=&lat.=51.51262&lng.=-0.1658002&z.=12&lang=en-US 
@@ -16,6 +17,7 @@ Uber travel time data has been used for the below analysis. Objective of the ana
   * Uber provides the data of average time taken to travel between from point A to point B
   * This data has been aggregated at weekly, daily and hourly data
   * This file is in the excel format
+
 
 **Data Dictionary:**
 * Bangalore Wards data
@@ -31,6 +33,7 @@ Uber travel time data has been used for the below analysis. Objective of the ana
 Note: All time related fields are in seconds
  
  
+ 
 **Data Preparation steps for wards data:**
 Step 1: Converted json file to csv
 Step 2: Prepared data such there are no blank cells in between the range of co-ordinates (refer below image)
@@ -41,44 +44,46 @@ _Before cleansing:_
 _After cleansing:_
 ![After_Cleaning](https://user-images.githubusercontent.com/66996144/89106781-4a73e880-d44a-11ea-8e63-5ae53ccb238e.png)
 
+
 **Exploratory Data Analysis**
 * Wards data:
   ![ED_Wards_Data](https://user-images.githubusercontent.com/66996144/89106852-9de63680-d44a-11ea-920d-dadc7e1f474d.png)
-* Sample Data:
+ * Sample Data:
   ![Wards_map](https://user-images.githubusercontent.com/66996144/89106903-c110e600-d44a-11ea-9038-1e0356addbe0.png)
 
-Hourly Data:
+* Hourly Data:
   ![Hourly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107059-f10cb900-d44b-11ea-9678-2fee2bf61efe.png)
   ![Hourly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107063-f5d16d00-d44b-11ea-9650-4f78dcb56a39.png)
   
-* Derived fields:
-  * mean_travel_time_mins from mean_travel_time
-  * Standard_deviation_travel_time_mins from Standard_deviation_travel_time
-  * Geometric_mean_travel_time_mins from Geometric_mean_travel_time
-* Hourly data gives us time taken to travel between 2 points for every hour of the day
-* Mean travel time can be 0.5 mins when distance between 2 points are minimum 
-* Mean travel time can be 181.2 mins (3 hrs) when distance between 2 points are maximum 
+		* Derived fields:
+				* mean_travel_time_mins from mean_travel_time
+				* Standard_deviation_travel_time_mins from Standard_deviation_travel_time
+				* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
+		* Hourly data gives us time taken to travel between 2 points for every hour of the day
+		* Mean travel time can be 0.5 mins when distance between 2 points are minimum 
+		* Mean travel time can be 181.2 mins (3 hrs) when distance between 2 points are maximum 
 
-Weekly Data:
+*	Weekly Data:
   ![Weekly_Data_Describe](https://user-images.githubusercontent.com/66996144/89107191-d25af200-d44c-11ea-94f8-fa9c87122f80.png)
   ![Weekly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107194-d555e280-d44c-11ea-87d7-63aaf25f3e46.png)
 
-* Derived fields: 
-   *  mean_travel_time_mins from mean_travel_time
-   *  Standard_deviation_travel_time_mins from Standard_deviation_travel_time
-   * Geometric_mean_travel_time_mins from Geometric_mean_travel_time
-* Weekly data gives us time taken to travel between 2 points on every day of the week
-* Mean travel time can be minimum 1.1 mins when distance between 2 points are minimum 
-* Mean travel time can be maximum 117.5 mins when distance between 2 points are maximum 
+		* Derived fields: 
+					*  mean_travel_time_mins from mean_travel_time
+					*  Standard_deviation_travel_time_mins from Standard_deviation_travel_time
+					* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
+		* Weekly data gives us time taken to travel between 2 points on every day of the week
+		* Mean travel time can be minimum 1.1 mins when distance between 2 points are minimum 
+		* Mean travel time can be maximum 117.5 mins when distance between 2 points are maximum 
 
 
-Let’s dive into actual data with an example:
-Choose your travel points:
-* Enter the source id: 114
-* Enter the destination id: 47
+**Let’s dive into actual data with an example:**
+_Choose your travel points:_
+	* Enter the source id: 114
+	* Enter the destination id: 47
 
 **Correlation:**
  ![Corelation](https://user-images.githubusercontent.com/66996144/89107243-3d0c2d80-d44d-11ea-9f3d-654ab02f2037.png)
+
 
 **Pair plot:**
  ![Pair_Plot](https://user-images.githubusercontent.com/66996144/89107256-57460b80-d44d-11ea-9cc4-e1c05346f606.png)
