@@ -1,4 +1,4 @@
-Uber Movement Data
+****									Uber Movement Data****
 
 **Problem Statement:**
 
@@ -46,6 +46,7 @@ _After cleansing:_
 
 
 **Exploratory Data Analysis**
+
 * Wards data:
   ![ED_Wards_Data](https://user-images.githubusercontent.com/66996144/89106852-9de63680-d44a-11ea-920d-dadc7e1f474d.png)
  
