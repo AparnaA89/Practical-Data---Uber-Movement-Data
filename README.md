@@ -62,9 +62,9 @@ _After cleansing:_
   	![Hourly_Data_Describe1](https://user-images.githubusercontent.com/66996144/89107063-f5d16d00-d44b-11ea-9650-4f78dcb56a39.png)
   
 	* Derived fields:
-				* mean_travel_time_mins from mean_travel_time
-				* Standard_deviation_travel_time_mins from Standard_deviation_travel_time
-				* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
+			* mean_travel_time_mins from mean_travel_time
+			* Standard_deviation_travel_time_mins from Standard_deviation_travel_time
+			* Geometric_mean_travel_time_mins from Geometric_mean_travel_time
 	* Hourly data gives us time taken to travel between 2 points for every hour of the day
 	* Mean travel time can be 0.5 mins when distance between 2 points are minimum 
 	* Mean travel time can be 181.2 mins (3 hrs) when distance between 2 points are maximum 
@@ -83,24 +83,30 @@ _After cleansing:_
 
 
 **Let’s dive into actual data with an example:**
+
 _Choose your travel points:_
-	* Enter the source id: 114
-	* Enter the destination id: 47
+*	Enter the source id: 114
+* Enter the destination id: 47
 
 **Correlation:**
+
  ![Corelation](https://user-images.githubusercontent.com/66996144/89107243-3d0c2d80-d44d-11ea-9f3d-654ab02f2037.png)
 
 
 **Pair plot:**
+
  ![Pair_Plot](https://user-images.githubusercontent.com/66996144/89107256-57460b80-d44d-11ea-9cc4-e1c05346f606.png)
  
 
 **Weekly data**
+
 _Basic stats:_
+
     ![BS_Weekly_desc](https://user-images.githubusercontent.com/66996144/89107337-f79c3000-d44d-11ea-9b81-d9359c5e63d0.png)
     ![BS_Weekly_desc1](https://user-images.githubusercontent.com/66996144/89107340-fff46b00-d44d-11ea-87b2-4e0d13942ae1.png)
 
-Average time to travel across days:
+_Average time to travel across days:_
+
   ![Avg_time_to_travel_week](https://user-images.githubusercontent.com/66996144/89107356-27e3ce80-d44e-11ea-815f-94b82e71aabc.png)
 * If we choose to travel from Vijayanagar to Malleshwaram, we require 24 to 27 minutes on average
 * There is not much difference in the travel time when compared across days because of the population and attractive shopping places
@@ -108,10 +114,12 @@ Average time to travel across days:
  
 **Hourly data - describe()**
 _Basic stats:_
+
     ![BS_Hourly_desc](https://user-images.githubusercontent.com/66996144/89107387-6f6a5a80-d44e-11ea-8678-feda93372704.png)
     ![BS_Hourly_desc1](https://user-images.githubusercontent.com/66996144/89107390-72fde180-d44e-11ea-8264-aedd48c65076.png)
 
-Average time to travel during hours days:
+_Average time to travel during hours days:_
+
 ![Avg_time_to_travel_hourly](https://user-images.githubusercontent.com/66996144/89107405-8c069280-d44e-11ea-9ba5-953435cfd709.png)
 
 * For the same location we choose previously i.e. Vijayanagar to Malleshwaram, we require 15 to 32 minutes on average during different time interval
